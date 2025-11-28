@@ -6,6 +6,8 @@ A unified framework where agents, design, and logic come together — powered by
 [📍 View Progress & Code](https://github.com/BOT-Digital/BOTWorks-Project.git)
 
 ---
+![BOTWorks Development Screenshot](./dev-screenshot.png)
+---
 
 ## 🚧 Project Status: Paused (In Development)
 
