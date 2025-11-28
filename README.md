@@ -1,4 +1,4 @@
-# 🤖 BOTWorks
+# 🤖 The BOTWorks Project
 
 **An MCP-Powered App Built in Expo + Azure Functions**  
 A unified framework where agents, design, and logic come together — powered by the **MO Concept** and driven from a single structured file.
@@ -6,7 +6,7 @@ A unified framework where agents, design, and logic come together — powered by
 [📍 View Progress & Code](https://github.com/BOT-Digital/BOTWorks-Project.git)
 
 ---
-![BOTWorks Development Screenshot](./dev-screenshot.png)
+![BOTWorks Development Screenshot](./devs-screenshot.png)
 ---
 
 ## 🚧 Project Status: Paused (In Development)
