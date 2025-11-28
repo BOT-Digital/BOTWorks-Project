@@ -106,11 +106,11 @@ func azure functionapp publish <your-function-app-name>
 ```
 
 ### Expo App
-Build for production using Expo:
+Build for production using Expo Application Services (EAS):
 ```bash
-npx expo build:android
-npx expo build:ios
-npx expo build:web
+npx eas build --platform android
+npx eas build --platform ios
+npx expo export --platform web
 ```
 
 ## License
