@@ -1,19 +1,24 @@
 # 🤖 The BOTWorks Project
 
-**An MCP-Powered App Built in Expo + Azure Functions**  
+**An MCP-Powered App Built in Expo + Azure Container Apps**  
 A unified framework where agents, design, and logic come together — powered by the **MO Concept** and driven from a single structured file.
 
 [📍 View Progress & Code](https://github.com/BOT-Digital/BOTWorks-Project.git)
 
 ---
+
 ![BOTWorks Development Screenshot](./devs-screenshot.png)
+
 ---
 
-## 🚧 Project Status: Paused (In Development)
+## 🚧 Project Status: Active — Azure MCP Integration Sprint
 
-BOTWorks is an AI-guided mobile app framework based on **Multi-Agent Collaborative Prompting (MCP)** — a system where agents don't just assist, they collaborate.
+BOTWorks is an AI-guided mobile app framework based on **Multi-Agent Collaborative Prompting (MCP)** — a system where agents collaborate to steer every screen. We’re currently finishing the Azure Container Apps deployment, wiring the new `AzureOpenAIService`, and refreshing test coverage ahead of the next build window.
 
-The concept is active, but development is currently paused due to bandwidth. Feel free to follow, fork, or reach out if you’re interested in building with MCP logic.
+Latest internal docs:
+
+- [dev.agents.md](dev.agents.md) — week-by-week agent backlog, deployment checklists.
+- [dev.test.md](dev.test.md) — preflight steps and regression coverage for the next session.
 
 ---
 
@@ -52,8 +57,8 @@ BOTWorks runs on a modular logic file that defines:
 - **Frontend**: [Expo (React Native)](https://expo.dev)  
 - **State Management**: Zustand  
 - **Animations**: Reanimated  
-- **Backend**: [Azure Functions](https://azure.microsoft.com/services/functions)  
-- **AI / MCP Layer**: Custom logic defined in a single YAML configuration  
+- **Backend**: .NET MCP service deployed via [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/)  
+- **AI / MCP Layer**: Azure OpenAI + MO Concept YAML configuration  
 
 ---
 
@@ -61,10 +66,10 @@ BOTWorks runs on a modular logic file that defines:
 
 | Phase | Focus | Status |
 |-------|-------|--------|
-| 1     | Route scaffolding & shared component stubs | ✅ Completed  
-| 2     | Core UI (ChatBubble, slider, collapsible panels) | ⚙️ In Progress  
-| 3     | Azure wiring & MCP agent integration | ⏸️ Paused  
-| 4     | Visual/gesture polish + reflection loop testing | 🔜 Next  
+| 1     | Route scaffolding & shared component stubs | ✅ Completed |
+| 2     | Core UI (ChatBubble, slider, collapsible panels) | ⚙️ In Progress |
+| 3     | Azure wiring & MCP agent integration | 🚚 In Flight |
+| 4     | Visual/gesture polish + reflection loop testing | 🔜 Next |
 
 ---
 
@@ -78,7 +83,7 @@ If you're interested in:
 
 ...I'd love to connect.
 
-Feel free to fork the repo, open an issue, or drop a line.
+Feel free to fork the repo, open an issue, or drop a line. If you want to help ship the Azure sprint, start by reviewing the docs above and running through the `dev.test.md` checklist locally.
 
 ---
 
