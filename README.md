@@ -38,7 +38,7 @@ It’s not a typical app. It’s a **living system**, where human intention meet
 
 ---
 
-## 🧠 The MO Concept (Framework Pillars)
+## 🧠 The Concept (Framework Pillars)
 
 BOTWorks runs on a modular logic file that defines:
 
